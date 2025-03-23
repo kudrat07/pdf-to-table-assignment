@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import toast from "react-hot-toast";
 
-const BACKEND_URL = "http://localhost:3000/api/v1/extract";
+const BACKEND_URL = "http://localhost:8080/api/v1/extract";
 
 const App = () => {
   const [data, setData] = useState([]);

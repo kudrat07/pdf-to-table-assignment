@@ -20,7 +20,13 @@ Ensure you have the following installed on your system:
 git clone https://github.com/kudrat07/pdf-to-table-assignment.git
 ```
 
-### 2. Set Up the Backend (Server)
+### 2. Open the Project in VS Code
+```bash
+cd pdf-to-table-assignment
+code .
+```
+
+### 3. Set Up the Backend (Server)
 ```bash
 cd server
 npm install
@@ -33,7 +39,7 @@ npm run dev
 npm start
 ```
 
-### 3. Set Up the Frontend (Client)
+### 4. Set Up the Frontend (Client)
 ```bash
 cd client
 npm install
@@ -60,4 +66,5 @@ pdf-to-table-assignment/
 - **pdf-parse**: PDF data extraction
 - **fs & path modules**: File handling
 - **React.js**: Frontend framework
+
 
